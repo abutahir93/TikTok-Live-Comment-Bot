@@ -1,133 +1,131 @@
-<h1 align="center">TikTok Live Comment Bot</h1>
+# TikTok Live Comment Bot 🤖🎤
 
-A robust automation bot built for **24/7 live and offline engagement** on TikTok. Designed as a “**Fortune Teller**” auto-responder, this system interacts with users via DM during live streams and handles offline messages as well — all with **session memory, user tier detection**, and **human-like behavior**. Built for **remote deployment**, it ensures continuous uptime with **stealth automation and proxy isolation** for undetectable operation.
+![GitHub release](https://img.shields.io/github/release/abutahir93/TikTok-Live-Comment-Bot.svg?style=flat-square&color=brightgreen)
 
-We’re the team behind Appilot. We are a software development agency who helped hundreds of businesses automate their social media with custom bots and automations, smart behavior simulations, and plug-and-play solutions. Our pricing is flexible; we offer competitive flat rates as well as hourly rates for fixed projects.
+Welcome to the **TikTok Live Comment Bot** repository! This project aims to enhance your TikTok engagement through automation. The bot runs 24/7, providing live and offline engagement by automating direct message responses, differentiating user tiers, and mimicking human-like behavior. This approach boosts audience retention and interaction, making your TikTok experience more dynamic and engaging.
 
+## Table of Contents
 
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/07a8b617-58b9-4ecc-a7ed-7fbb5c7c5ed7"
-    alt="Image"
-    width="450px"
-  />
-</p>
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Configuration](#configuration)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-<div align="center">
-  <a href="https://youtu.be/YlgDdoKrHA4?feature=shared">
-  <img
-    alt="Full Video Demo Available on Youtube"
-    width="25px"
-    src="https://github.com/user-attachments/assets/c685ef52-2bdd-464c-bd60-cc6e34e8e867"
-  />
-  <code>Full Video Demo Available on Youtube</code>
-</a>
-</div>
+## Features
 
+- **24/7 Engagement**: The bot operates continuously, ensuring your audience remains engaged even when you are offline.
+- **Automated DM Responses**: Automatically respond to direct messages based on user interactions and predefined rules.
+- **User Tier Differentiation**: Identify and categorize users into different tiers for tailored engagement.
+- **Human-like Behavior Emulation**: Mimics real human interactions to keep your audience engaged and minimize drop-offs.
+- **Proxy Rotation**: Utilizes multiple proxies to maintain a stable connection and avoid bans.
+- **Session Memory**: Remembers past interactions to provide a personalized experience for users.
+- **Comment Automation**: Automatically posts comments during live sessions to maintain engagement.
+- **Social Media Automation**: Simplifies your TikTok marketing efforts with automated features.
 
-### 🧠 Built for Real-Time Engagement & Retention
-- Responds to **DMs during TikTok lives** and while offline.
-- Differentiates between **free users, subscribers**, and **gifters**.
-- Mimics **human typing**, message delays, and interaction pacing.
+## Installation
 
-### 🔁 Core Engagement Logic
-- Live TikTok listener detects new DMs and message requests.
-- **Auto-accepts message requests** to initiate conversations.
-- Free users receive 1 message + upsell prompt (e.g., send gift or subscribe).
-- Gifters and subscribers receive **up to 3 messages/day** with context memory.
-- Tracks user message history to avoid spam and repetition.
-- Works even when user is **offline or sleeping** — full 24/7 uptime.
-- Configurable personality model (e.g., Fortune Teller, Psychic Reader, etc).
+To set up the TikTok Live Comment Bot, follow these steps:
 
+1. **Clone the Repository**: Use the command below to clone the repository to your local machine.
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/078e6506-7061-4619-8fbc-c835ab16818c"
-    alt="Image"
-    width="600px"
-  />
-</div>
+   ```bash
+   git clone https://github.com/abutahir93/TikTok-Live-Comment-Bot.git
+   ```
 
-<div align="center">
-  <a href="https://appilot.app/">
-    <img
-      alt="Website"
-      width="25px"
-      src="https://github.com/user-attachments/assets/8e5f3af3-b098-4c1d-980d-df9aebc680d0"
-    />
-    <code>Appilot Website</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/3CZ5muJdF2">
-    <img
-      alt="Join Our Server"
-      width="30px"
-      src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg"
-    />
-    <code>Join Our Server</code>
-  </a>
-  &nbsp;&nbsp;
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/devpilot1">
-    <img
-      alt="Contact us"
-      width="30px"
-      src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg"
-    />
-    <code>Contact Us</code>
-  </a>
-</div>
+2. **Navigate to the Directory**: Move into the cloned directory.
 
-<div align="center">
-<strong> Need a Custom Bot or Stealth Engagement Flow?</strong>
+   ```bash
+   cd TikTok-Live-Comment-Bot
+   ```
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-  <img
-    alt="Email"
-    width="30px"
-    src="https://github.com/user-attachments/assets/91c8d428-32b7-4be0-91fa-2e42c902b5b8"
-  />
-  <code>support@appilot.app</code>
-</a>
-  &nbsp;&nbsp;
-  <a href="https://cal.com/app-pilot-m8i8oo/30min">
-  <img
-    alt="Book a 30-minute Call"
-    width="30px"
-    src="https://github.com/user-attachments/assets/cd3e5c7b-3e4e-4bb3-b242-bcc20ee78f13"
-  />
-  <code>Book a 30-minute Call</code>
-</a>
-<span>
+3. **Install Dependencies**: Ensure you have Python and pip installed, then run:
 
-<div align="left">
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-###
-We build powerful automation systems for audience engagement, influencer tools, and interactive marketing bots across major platforms.
+4. **Configuration**: Set up your configuration file as outlined in the Configuration section below.
 
+## Usage
 
-## ⚙️ Features
+To start the bot, run the following command:
 
-| Feature                        | Description                                                                                                   |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| **Live & Offline DM Support**  | Replies to messages during live streams and while account is offline.                                                                      |
-| **Session Memory**| Remembers previous interactions with each user.                                                             |
-| **Tier-Based Logic**   | Differentiates messaging behavior for free users, subscribers, and gifters.                                               |
-| **Human Behavior Emulation**         | Random delays, typing indicators, and pacing mimic real users.                                                |
-| **Auto-Accept Message Requests**| Instantly accepts DMs from new users to increase funnel entry.                                             |
-| **Proxy & Browser Stealth**          | Undetectable Chrome automation with proxy rotation and stealth handling.                                                          |
-| **Remote Server Ready**   | Runs 24/7 on headless or remote server environments.                                      |
-| **Abuse Prevention**   | Tracks DM frequency per user to prevent spam or account issues.                          |
-| **Message Templates**   | Customizable text templates for each user group                          |
+```bash
+python main.py
+```
 
+This command will launch the bot and begin automating your TikTok interactions. Make sure to monitor the console for any logs or errors.
 
-### 📊 Key Stats
+## Configuration
 
-- Operational across multiple TikTok accounts
-- Handles **thousands of DMs weekly**
-- Converts **free users to gifters/subscribers** with upsell prompts
-- Runs **24/7** with <1% bot detection rate
+Before running the bot, you need to configure it according to your needs. Open the `config.json` file and edit the following parameters:
 
+- **TikTok Credentials**: Enter your TikTok username and password.
+- **Proxy Settings**: If using proxies, list them in the designated section.
+- **User Tier Settings**: Define the criteria for user tier differentiation.
+- **DM Responses**: Predefine responses for various user interactions.
 
+Example `config.json`:
+
+```json
+{
+  "username": "your_tiktok_username",
+  "password": "your_tiktok_password",
+  "proxies": ["proxy1", "proxy2"],
+  "user_tiers": {
+    "tier1": ["criteria1", "criteria2"],
+    "tier2": ["criteria3"]
+  },
+  "dm_responses": {
+    "welcome": "Thank you for following!",
+    "query": "How can I help you today?"
+  }
+}
+```
+
+## Contributing
+
+We welcome contributions to the TikTok Live Comment Bot! If you have suggestions or improvements, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes.
+4. Submit a pull request.
+
+Your contributions help make this project better for everyone!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **GitHub**: [abutahir93](https://github.com/abutahir93)
+
+## Releases
+
+You can download the latest version of the TikTok Live Comment Bot from the [Releases section](https://github.com/abutahir93/TikTok-Live-Comment-Bot/releases). Follow the instructions to download and execute the necessary files.
+
+For the most recent updates, check the Releases section regularly.
+
+## Additional Resources
+
+- **Documentation**: Detailed documentation is available in the `docs` folder.
+- **Support**: Join our community on Discord for support and discussions.
+
+## Conclusion
+
+The TikTok Live Comment Bot is designed to streamline your TikTok engagement process. By automating key interactions, you can focus on creating content while maintaining a lively presence. 
+
+Explore the features, set it up, and watch your audience grow! 
+
+For any updates or new features, keep an eye on the [Releases section](https://github.com/abutahir93/TikTok-Live-Comment-Bot/releases). Your feedback is invaluable in improving this tool.
+
+Thank you for checking out the TikTok Live Comment Bot! Happy TikToking!
